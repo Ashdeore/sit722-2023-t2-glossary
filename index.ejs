@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <h2>Welcome to <%= Sub_ash %></h2>
+    <table>
+      <tr>
+        <th class="column1">Sr No.</th>
+        <th class="column2">Term</th>
+        <th class="column3">Defination</th>
+        <th class="column4">References</th>
+      </tr>
+      <% names.forEach(function(item) { %>
+     <tr>
+      <td class="column1">
+        <%= item.id %>
+      </td>
+      <td class="column2">
+        <%= item.Term %>
+      </td>
+      <td class="column3">
+        <%= item.Defination %>
+      </td>
+      <td class="column4">
+        <%= item.Refrences %>
+      </td>
+     </tr>
+     <%  })  %>
+    </table>
+  </body>
+</html>
