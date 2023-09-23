@@ -156,8 +156,47 @@ const tableList =[
  {
   'id':40,'Term':'Set precise DevOps standards','Defination':'Well-defined DevOps standards enable you to create quality gates on each code check-in, then run tests and deploy. It saves your teams from repetitive, error-prone manual tasks and optimizes their development efforts.',
  'Refrences':'enterprisersproject.com. (n.d.). 10 ways DevOps can help reduce technical debt. [online] Available at: https://enterprisersproject.com/article/2022/6/devops-reduce-technical-debt. '
- }
-]
+ },
+ {
+  'id':41,'Term':'CI/CD Pipeline','Defination':'A pipeline is a process that drives software development through a path of building, testing, and deploying code, also known as CI/CD. By automating the process, the objective is to minimize human error and maintain a consistent process for how software is released.',
+ 'Refrences':'www.redhat.com. (2022). What is a CI/CD pipeline? [online] Available at: https://www.redhat.com/en/topics/devops/what-cicd-pipeline. '
+ },
+ {
+  'id':42,'Term':'DevOps Containers and CI/CD pipelines  ','Defination':'Traditional CI/CD systems are designed for pipelines that use virtual machines, but cloud-native application development brings advantages to CI/CD pipelines.',
+ 'Refrences':'www.redhat.com. (2022). What is a CI/CD pipeline? [online] Available at: https://www.redhat.com/en/topics/devops/what-cicd-pipeline. '
+ },
+ {
+  'id':43,'Term':'DevOps Engineer','Defination':'A DevOps engineer introduces processes, tools, and methodologies to balance needs throughout the software development life cycle, from coding and deployment, to maintenance and updates.  ',
+ 'Refrences':'www.redhat.com. (2022). What is a CI/CD pipeline? [online] Available at: https://www.redhat.com/en/topics/devops/what-cicd-pipeline. '
+ },
+ {
+  'id':44,'Term':'DevOps Essentials','Defination':'DevOps engineers build new skills on top of their current experience. Tasks like data management and library updates for new product releases combine with needs for leadership and collaboration across teams. It is important for DevOps engineers to understand the fundamentals of application development and delivery.  ',
+ 'Refrences':'www.redhat.com. (n.d.). Who is a DevOps engineer? [online] Available at: https://www.redhat.com/en/topics/devops/devops-engineer. '
+ },
+ {
+  'id':45,'Term':'DevOps Version Control','Defination':'Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time.',
+ 'Refrences':'Atlassian (n.d.).[online]. Available at: https://www.atlassian.com/git/tutorials/what-is-version-control#:~:text=Version%20control%2C%20also%20known%20as. '
+ },
+ {
+  'id':46,'Term':'Benefits of version control systems','Defination':'Using version control software is a best practice for high performing software and DevOps teams. Version control also helps developers move faster and allows software teams to preserve efficiency and agility as the team scales to include more developers.  ',
+ 'Refrences':'Atlassian (n.d.).[online]. Available at: https://www.atlassian.com/git/tutorials/what-is-version-control#:~:text=Version%20control%2C%20also%20known%20as. '
+ },
+ {
+  'id':47,'Term':'DevOps configuration s a Code','Defination':'Config as Code is a way to manage application or operating system settings through text files in a code repository.  ',
+ 'Refrences':'octopus.com. (2022). DevOps glossary. [online] Available at: https://octopus.com/devops/glossary/. '
+ },
+ {
+  'id':48,'Term':'DevOps Container Registry','Defination':'A container registry catalogs and stores container images. It acts as a directory for team members and deployment processes.  ',
+ 'Refrences':'octopus.com. (2022). DevOps glossary. [online] Available at: https://octopus.com/devops/glossary/.'
+ },
+ {
+  'id':49,'Term':'DevOps Deployment','Defination':'A deployment is the process of sending or installing deployable artifacts to targets where applications will run. That could include physical and virtual media like servers or cloud solutions',
+ 'Refrences':'octopus.com. (2022). DevOps glossary. [online] Available at: https://octopus.com/devops/glossary/. '
+ },
+ {
+  'id':50,'Term':'DevOps using Docker','Defination':'Docker provides the leading technology for building and running containers. The Docker format, OCI, is open source and industry standard, supported by all major operating systems.  ',
+ 'Refrences':'octopus.com. (2022). DevOps glossary. [online] Available at: https://octopus.com/devops/glossary/. '
+ }]
 
 
 /* GET home page. */
